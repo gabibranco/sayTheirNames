@@ -56,5 +56,5 @@ function setup() {
 
 function draw() {
   let name = random(sayTheirNames);
-  text(name, random(-5,windowWidth), random(-5,windowHeight));
+  text(name, random(-6,windowWidth), random(-5,windowHeight));
 }
