@@ -50,11 +50,13 @@ let sayTheirNames = ['João Pedro Mattos',
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255);
+  textSize(32);
   textFont('Ultra');
-  text('Say Their Names', windowWidth/2, windowHeight/2);
 }
 
 function draw() {
+  stroke(255);
+  strokeWeight(4);
   let name = random(sayTheirNames);
-  text(name, random(-6,windowWidth), random(-5,windowHeight));
+  text(name, random(-100,windowWidth), random(-5,windowHeight +5));
 }
