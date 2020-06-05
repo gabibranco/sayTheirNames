@@ -51,6 +51,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255);
   textFont('Ultra');
+  text('Say Their Names', windowWidth/2, windowHeight/2);
 }
 
 function draw() {
