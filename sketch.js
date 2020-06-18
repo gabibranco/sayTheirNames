@@ -51,8 +51,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255);
   textSize(32);
-  myFont = loadFont('Ultra');
-  textFont(myFont);
+  textFont('Ultra');
 }
 
 function draw() {
